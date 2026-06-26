@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "NCRS Smithed Summit Pack",
+    "min_format": [
+      84,
+      0
+    ],
+    "max_format": 84
+  }
+}

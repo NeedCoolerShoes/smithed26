@@ -1,0 +1,1 @@
+execute positioned -28 70 -216 run function ncrs:paint/reset

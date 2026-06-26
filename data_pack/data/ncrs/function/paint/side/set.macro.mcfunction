@@ -1,0 +1,1 @@
+$data modify entity 4f4d9ea2-3d42-4ec8-a42e-8ee37695abca item.components.minecraft:custom_model_data.colors[$(idx)] set value $(color)
