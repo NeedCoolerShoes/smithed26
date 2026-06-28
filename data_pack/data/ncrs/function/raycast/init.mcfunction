@@ -6,4 +6,4 @@ execute at @s anchored eyes positioned ^ ^ ^0.5 run function ncrs:raycast/iterat
 
 data modify storage ncrs:raycast position set from entity a478fccd-169f-45d9-8404-2f41138407a8 Pos
 
-# kill a478fccd-169f-45d9-8404-2f41138407a8
+kill a478fccd-169f-45d9-8404-2f41138407a8

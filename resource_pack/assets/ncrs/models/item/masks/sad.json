@@ -1,0 +1,7 @@
+{
+	"parent": "ncrs:item/mask_static",
+	"textures": {
+		"1": "ncrs:item/masks/sad",
+		"particle": "ncrs:item/masks/sad"
+	}
+}

@@ -1,0 +1,5 @@
+kill @e[type=interaction,distance=..10,tag=ncrs.mask.palette]
+
+summon interaction ~-0.75 ~ ~-0.375 {Tags:["summit.in_booth.ncrs","summit.interactable","ncrs.mask.palette"],width:0.12,height:0.1,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/set_color/red",on_right_click:"function ncrs:mask/draw/set_color/red"}}}
+summon interaction ~-0.940 ~ ~-0.565 {Tags:["summit.in_booth.ncrs","summit.interactable","ncrs.mask.palette"],width:0.12,height:0.1,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/set_color/orange",on_right_click:"function ncrs:mask/draw/set_color/orange"}}}
+summon interaction ~-0.75 ~ ~-0.565 {Tags:["summit.in_booth.ncrs","summit.interactable","ncrs.mask.palette"],width:0.12,height:0.1,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/set_color/skin_light",on_right_click:"function ncrs:mask/draw/set_color/skin_light"}}}
