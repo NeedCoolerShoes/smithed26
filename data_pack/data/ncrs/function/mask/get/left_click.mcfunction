@@ -1,0 +1,1 @@
+execute on attacker run function ncrs:mask/get/give

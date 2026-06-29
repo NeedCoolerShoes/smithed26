@@ -1,5 +1,14 @@
 kill @e[type=interaction,distance=..10,tag=ncrs.mask.palette]
 
-summon interaction ~-0.75 ~ ~-0.375 {Tags:["summit.in_booth.ncrs","summit.interactable","ncrs.mask.palette"],width:0.12,height:0.1,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/set_color/red",on_right_click:"function ncrs:mask/draw/set_color/red"}}}
-summon interaction ~-0.940 ~ ~-0.565 {Tags:["summit.in_booth.ncrs","summit.interactable","ncrs.mask.palette"],width:0.12,height:0.1,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/set_color/orange",on_right_click:"function ncrs:mask/draw/set_color/orange"}}}
-summon interaction ~-0.75 ~ ~-0.565 {Tags:["summit.in_booth.ncrs","summit.interactable","ncrs.mask.palette"],width:0.12,height:0.1,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/set_color/skin_light",on_right_click:"function ncrs:mask/draw/set_color/skin_light"}}}
+execute positioned ~0.125 ~ ~0.625 run function ncrs:mask/summon/palette.macro {color: "red"}
+execute positioned ~0.3125 ~ ~0.375 run function ncrs:mask/summon/palette.macro {color: "orange"}
+execute positioned ~0.0625 ~ ~0.3125 run function ncrs:mask/summon/palette.macro {color: "yellow"}
+execute positioned ~0.1875 ~ ~0.0625 run function ncrs:mask/summon/palette.macro {color: "green"}
+execute positioned ~0.0625 ~ ~-0.125 run function ncrs:mask/summon/palette.macro {color: "blue"}
+execute positioned ~0.375 ~ ~0.6875 run function ncrs:mask/summon/palette.macro {color: "pink"}
+execute positioned ~0.5 ~ ~0.5625 run function ncrs:mask/summon/palette.macro {color: "brown"}
+execute positioned ~0.625 ~ ~0.4375 run function ncrs:mask/summon/palette.macro {color: "white"}
+execute positioned ~0.6875 ~ ~0.6875 run function ncrs:mask/summon/palette.macro {color: "black"}
+execute positioned ~0.75 ~ ~0.1875 run function ncrs:mask/summon/palette.macro {color: "gray"}
+execute positioned ~0.3125 ~ ~-0.1875 run function ncrs:mask/summon/palette.macro {color: "beige"}
+execute positioned ~0.5 ~ ~0.1875 run function ncrs:mask/summon/palette.macro {color: "light_orange"}

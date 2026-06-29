@@ -1,0 +1,1 @@
+execute on target run function ncrs:mask/get/give

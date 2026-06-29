@@ -8,6 +8,7 @@ scoreboard players operation $y2 ncrs.mask -= $y1 ncrs.mask
 scoreboard players operation $z2 ncrs.mask -= $z1 ncrs.mask
 
 scoreboard players operation $z2 ncrs.mask += $370 ncrs.constants
+execute if score $z2 ncrs.mask matches ..0 run scoreboard players set $z2 ncrs.mask 0
 
 scoreboard players operation $y2 ncrs.mask /= $93 ncrs.constants
 scoreboard players operation $z2 ncrs.mask /= $93 ncrs.constants
