@@ -9,4 +9,5 @@ function ncrs:mask/get/give.macro with storage ncrs:mask/get
 
 playsound ui.button.click block @s -45 70 -231
 execute store result score @s ncrs.mask.cooldown run time query gametime
+function ncrs:mask/draw/set_color/black
 function ncrs:mask/draw/reset

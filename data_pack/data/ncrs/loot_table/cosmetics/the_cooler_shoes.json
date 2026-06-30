@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Cooler Shoes ™",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Designed on ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  {
+                    "text": " NeedCoolerShoes",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "by ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "@pancake",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ],
+                "",
+                {
+                  "text": "https://ncrs.skin/s/9372",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "ncrs:the_cooler_shoes",
+                  "swappable": true
+                },
+                "minecraft:item_model": "ncrs:cosmetics/the_cooler_shoes"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

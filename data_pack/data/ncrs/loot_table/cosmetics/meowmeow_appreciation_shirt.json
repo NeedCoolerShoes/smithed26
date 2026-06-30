@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "meowmeow appreciation shirt",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Designed on ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  {
+                    "text": " NeedCoolerShoes",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "by ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "@mhorkuit",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ],
+                "",
+                {
+                  "text": "https://ncrs.skin/s/40467",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "ncrs:meowmeow_appreciation_shirt",
+                  "swappable": true
+                },
+                "minecraft:item_model": "ncrs:cosmetics/meowmeow_appreciation_shirt"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
