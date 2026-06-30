@@ -1,0 +1,1 @@
+data modify entity d165ed62-c858-4e75-9a2c-06a791aebfc5 item.components."minecraft:item_model" set value "ncrs:confirm_button"

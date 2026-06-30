@@ -12,16 +12,16 @@ summon item_display ~0.5 ~-0.5 ~0.5 {item:{id:"minecraft:stick",count:1,componen
 
 # Paintbrush Display
 kill 7286a4f8-54fc-4b89-85b1-1cf4fb1a7bec
-summon item_display ~0.41 ~0.36 ~0.2 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[-90f,90f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
+summon item_display ~0.38 ~0.375 ~0.3 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[-90f,90f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
 
 # Confirm Button Display
 kill d165ed62-c858-4e75-9a2c-06a791aebfc5
-summon item_display ~-0.5 ~0.5 ~0.5 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:confirm_button"}},UUID:[I; -781849246, -933736843, -1708390745, -1850818619],Rotation:[90f,0f]}
+summon item_display ~-0.5 ~0.5 ~1.5 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:confirm_button"}},UUID:[I; -781849246, -933736843, -1708390745, -1850818619],Rotation:[90f,0f]}
 
 # Confirm Button Interaction
 kill e8d9e205-50d8-4d56-8bad-6ec714b811a3
-summon interaction ~-0.5 ~ ~0.5 {Tags:["summit.interactable","summit.static"],UUID:[I; -388374011, 1356352854, -1951568185, 347607459],width:0.5,height:0.25,data:{summit_interactable:{on_right_click:"function ncrs:mask/get/right_click",on_left_click:"function ncrs:mask/get/left_click"}}}
+summon interaction ~-0.5 ~ ~1.5 {Tags:["summit.interactable","summit.static"],UUID:[I; -388374011, 1356352854, -1951568185, 347607459],width:0.4,height:0.25,data:{summit_interactable:{on_right_click:"function ncrs:mask/get/right_click",on_left_click:"function ncrs:mask/get/left_click"}}}
 
 # Confirm Button Text
 kill 20018f11-04f7-4107-bd34-967c3dbce5ef
-summon text_display ~-0.5 ~0.25 ~0.5 {text: {text: "Get Mask", color: "green"},UUID:[I; 536973073, 83312903, -1120627076, 1035789807],Rotation:[-90,0],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.3f,0.3f,0.3f]}}
+summon text_display ~-0.5 ~0.25 ~1.5 {text: {text: "Get Mask", color: "green"},UUID:[I; 536973073, 83312903, -1120627076, 1035789807],Rotation:[-90,0],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.3f,0.3f,0.3f]},billboard:"vertical"}
