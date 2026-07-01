@@ -61,7 +61,6 @@
               "components": {
                 "minecraft:equippable": {
                   "slot": "head",
-                  "asset_id": "ncrs:bowler_hat",
                   "swappable": true
                 },
                 "minecraft:item_model": "ncrs:cosmetics/bowler_hat"

@@ -1,0 +1,7 @@
+{
+  "parent": "ncrs:item/head",
+  "textures": {
+    "0": "ncrs:item/cosmetics/bowler_hat_head",
+    "particle": "ncrs:item/cosmetics/bowler_hat_head"
+  }
+}

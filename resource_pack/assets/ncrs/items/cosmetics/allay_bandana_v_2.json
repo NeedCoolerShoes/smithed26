@@ -1,6 +1,19 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "ncrs:item/cosmetics/allay_bandana_v_2"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "head",
+        "model": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/cosmetics/allay_bandana_v_2_head"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "ncrs:item/cosmetics/allay_bandana_v_2"
+    }
   }
 }

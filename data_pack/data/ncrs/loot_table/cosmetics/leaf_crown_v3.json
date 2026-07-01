@@ -61,7 +61,6 @@
               "components": {
                 "minecraft:equippable": {
                   "slot": "head",
-                  "asset_id": "ncrs:leaf_crown_v3",
                   "swappable": true
                 },
                 "minecraft:item_model": "ncrs:cosmetics/leaf_crown_v3"

@@ -1,6 +1,19 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "ncrs:item/cosmetics/miner_s_hard_hat"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "head",
+        "model": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/cosmetics/miner_s_hard_hat_head"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "ncrs:item/cosmetics/miner_s_hard_hat"
+    }
   }
 }

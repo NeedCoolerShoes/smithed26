@@ -1,6 +1,19 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "ncrs:item/cosmetics/leaf_crown_v3"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "head",
+        "model": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/cosmetics/leaf_crown_v3_head"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "ncrs:item/cosmetics/leaf_crown_v3"
+    }
   }
 }
