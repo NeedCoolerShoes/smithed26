@@ -7,7 +7,8 @@ execute store result storage ncrs:mask/get created_at int 1 run time query gamet
 
 function ncrs:mask/get/give.macro with storage ncrs:mask/get
 
-playsound entity.player.levelup block @s -45 70 -231
+playsound ui.button.click block @s -45 70 -231 1 1.5
+playsound entity.player.levelup block @s -45 70 -231 1 2
 data modify entity d165ed62-c858-4e75-9a2c-06a791aebfc5 item.components."minecraft:item_model" set value "ncrs:confirm_button_pressed"
 schedule function ncrs:mask/get/unpress 10t
 execute store result score @s ncrs.mask.cooldown run time query gametime
