@@ -1,0 +1,1 @@
+$data modify entity @n[type=armor_stand,tag=ncrs.shop.hanger_display_item] equipment.$(type).components.minecraft:equippable.asset_id set value "ncrs:$(new_id)"

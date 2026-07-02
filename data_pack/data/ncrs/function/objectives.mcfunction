@@ -1,6 +1,7 @@
 scoreboard objectives add ncrs.mask dummy
 scoreboard objectives add ncrs.constants dummy
 scoreboard objectives add ncrs.mask.cooldown dummy
+scoreboard objectives add ncrs.booth.summon.hangers.assign dummy
 
 scoreboard players set $8 ncrs.constants 8
 scoreboard players set $93 ncrs.constants 93

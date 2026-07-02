@@ -1,0 +1,1 @@
+$loot give @s loot ncrs:cosmetics/$(id)
