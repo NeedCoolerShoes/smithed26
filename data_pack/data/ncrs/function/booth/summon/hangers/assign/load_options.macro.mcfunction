@@ -1,1 +1,0 @@
-$data modify storage ncrs:booth/summon/hangers/assign options set from storage ncrs:cosmetic registry.$(type)

@@ -1,1 +1,0 @@
-$execute store result storage ncrs:booth/summon/hangers/assign current.index int 1 run random value 0..$(max)

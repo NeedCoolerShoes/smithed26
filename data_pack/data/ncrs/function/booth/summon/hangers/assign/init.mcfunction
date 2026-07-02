@@ -1,1 +1,0 @@
-execute as @e[type=interaction,tag=ncrs.shop.hanger_interaction] at @s run function ncrs:booth/summon/hangers/assign/entity

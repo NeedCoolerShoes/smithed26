@@ -1,0 +1,13 @@
+summon item_display ~ ~0.51 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display"], item: {id: "stick", components: {item_model: "ncrs:clothes_rack"}},Rotation:[90,0]}
+
+summon armor_stand ~ ~0.51 ~-0.8 {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], equipment:{chest: {id: "diamond_chestplate", components: {equippable: {slot: "chest", asset_id: "ncrs:cat_lovers_sweater"}}}},Invisible: true, Invulnerable: true, NoGravity: true, attributes: [{id: "minecraft:scale", base: 0.76}],DisabledSlots:63,Rotation:[180,0]}
+summon interaction ~ ~1 ~-0.8 {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.8,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "chest", id: "cat_lovers_sweater"}}}}
+
+summon armor_stand ~ ~0.51 ~-0.25 {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], equipment:{chest: {id: "diamond_chestplate", components: {equippable: {slot: "chest", asset_id: "ncrs:cat_lovers_sweater"}}}},Invisible: true, Invulnerable: true, NoGravity: true, attributes: [{id: "minecraft:scale", base: 0.76}],DisabledSlots:63,Rotation:[180,0]}
+summon interaction ~ ~1 ~-0.25 {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.8,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "chest", id: "cat_lovers_sweater"}}}}
+
+summon armor_stand ~ ~0.51 ~0.32 {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], equipment:{chest: {id: "diamond_chestplate", components: {equippable: {slot: "chest", asset_id: "ncrs:cat_lovers_sweater"}}}},Invisible: true, Invulnerable: true, NoGravity: true, attributes: [{id: "minecraft:scale", base: 0.76}],DisabledSlots:63,Rotation:[180,0]}
+summon interaction ~ ~1 ~0.32 {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.8,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "chest", id: "cat_lovers_sweater"}}}}
+
+summon armor_stand ~ ~0.51 ~0.8 {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], equipment:{chest: {id: "diamond_chestplate", components: {equippable: {slot: "chest", asset_id: "ncrs:cat_lovers_sweater"}}}},Invisible: true, Invulnerable: true, NoGravity: true, attributes: [{id: "minecraft:scale", base: 0.76}],DisabledSlots:63,Rotation:[180,0]}
+summon interaction ~ ~1 ~0.8 {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.8,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "chest", id: "cat_lovers_sweater"}}}}
