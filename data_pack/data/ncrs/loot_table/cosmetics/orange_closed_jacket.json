@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:orange_closed_jacket",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/orange_closed_jacket"
+                "minecraft:item_model": "ncrs:cosmetics/orange_closed_jacket",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/orange_closed_jacket"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

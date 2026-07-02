@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:epic_hoodie",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/epic_hoodie"
+                "minecraft:item_model": "ncrs:cosmetics/epic_hoodie",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/epic_hoodie"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

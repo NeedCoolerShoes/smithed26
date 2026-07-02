@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:green_whale_sweatshirt",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/green_whale_sweatshirt"
+                "minecraft:item_model": "ncrs:cosmetics/green_whale_sweatshirt",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/green_whale_sweatshirt"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:leather_pants",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/leather_pants"
+                "minecraft:item_model": "ncrs:cosmetics/leather_pants",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/leather_pants"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

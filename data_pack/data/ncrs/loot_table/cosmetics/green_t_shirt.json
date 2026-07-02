@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Cat Lovers Sweater",
+                "text": "Green T-Shirt",
                 "color": "aqua",
                 "italic": false
               }
@@ -42,14 +42,14 @@
                     "italic": false
                   },
                   {
-                    "text": "@kittykay27",
+                    "text": "@pancake",
                     "color": "aqua",
                     "italic": false
                   }
                 ],
                 "",
                 {
-                  "text": "https://ncrs.skin/s/29516",
+                  "text": "https://ncrs.skin/s/47169",
                   "color": "gray",
                   "italic": false
                 }
@@ -61,13 +61,13 @@
               "components": {
                 "minecraft:equippable": {
                   "slot": "chest",
-                  "asset_id": "ncrs:cat_lovers_sweater",
+                  "asset_id": "ncrs:green_t_shirt",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/cat_lovers_sweater",
+                "minecraft:item_model": "ncrs:cosmetics/green_t_shirt",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/cat_lovers_sweater"
+                    "id": "ncrs:cosmetics/green_t_shirt"
                   }
                 },
                 "minecraft:max_stack_size": 1

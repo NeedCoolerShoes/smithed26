@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:red_hoodie_with_stripes",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/red_hoodie_with_stripes"
+                "minecraft:item_model": "ncrs:cosmetics/red_hoodie_with_stripes",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/red_hoodie_with_stripes"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

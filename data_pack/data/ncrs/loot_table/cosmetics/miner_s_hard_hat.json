@@ -63,7 +63,13 @@
                   "slot": "head",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/miner_s_hard_hat"
+                "minecraft:item_model": "ncrs:cosmetics/miner_s_hard_hat",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/miner_s_hard_hat"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

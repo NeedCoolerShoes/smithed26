@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:the_cooler_shoes",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/the_cooler_shoes"
+                "minecraft:item_model": "ncrs:cosmetics/the_cooler_shoes",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/the_cooler_shoes"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

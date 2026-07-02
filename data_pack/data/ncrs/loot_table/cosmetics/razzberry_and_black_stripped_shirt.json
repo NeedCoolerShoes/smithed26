@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:razzberry_and_black_stripped_shirt",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/razzberry_and_black_stripped_shirt"
+                "minecraft:item_model": "ncrs:cosmetics/razzberry_and_black_stripped_shirt",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/razzberry_and_black_stripped_shirt"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

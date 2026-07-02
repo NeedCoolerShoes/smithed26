@@ -64,7 +64,13 @@
                   "asset_id": "ncrs:shoedgate",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/shoedgate"
+                "minecraft:item_model": "ncrs:cosmetics/shoedgate",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/shoedgate"
+                  }
+                },
+                "minecraft:max_stack_size": 1
               }
             }
           ]

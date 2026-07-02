@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Cat Lovers Sweater",
+                "text": "Grumpy Frog Hat",
                 "color": "aqua",
                 "italic": false
               }
@@ -42,14 +42,14 @@
                     "italic": false
                   },
                   {
-                    "text": "@kittykay27",
+                    "text": "@_",
                     "color": "aqua",
                     "italic": false
                   }
                 ],
                 "",
                 {
-                  "text": "https://ncrs.skin/s/29516",
+                  "text": "https://ncrs.skin/s/39625",
                   "color": "gray",
                   "italic": false
                 }
@@ -60,14 +60,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:equippable": {
-                  "slot": "chest",
-                  "asset_id": "ncrs:cat_lovers_sweater",
+                  "slot": "head",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/cat_lovers_sweater",
+                "minecraft:item_model": "ncrs:cosmetics/grumpy_frog_hat",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/cat_lovers_sweater"
+                    "id": "ncrs:cosmetics/grumpy_frog_hat"
                   }
                 },
                 "minecraft:max_stack_size": 1
