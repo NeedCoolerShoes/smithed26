@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ncrs:item/cosmetics/haloween_jack_o_lantern_camisole"
+  }
+}

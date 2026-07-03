@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Razzberry and black stripped shirt",
+                "text": "Green NCS sneakers ",
                 "color": "aqua",
                 "italic": false
               }
@@ -20,7 +20,7 @@
               "lore": [
                 [
                   {
-                    "text": "Restored on ",
+                    "text": "Designed on ",
                     "color": "white",
                     "italic": false
                   },
@@ -49,18 +49,7 @@
                 ],
                 "",
                 {
-                  "text": "https://ncrs.skin/s/9550",
-                  "color": "gray",
-                  "italic": false
-                },
-                "",
-                {
-                  "text": "This item was archived from the old site,",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "and has been lovingly restored.",
+                  "text": "https://ncrs.skin/s/8528",
                   "color": "gray",
                   "italic": false
                 }
@@ -71,14 +60,14 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:equippable": {
-                  "slot": "chest",
-                  "asset_id": "ncrs:razzberry_and_black_stripped_shirt",
+                  "slot": "feet",
+                  "asset_id": "ncrs:green_ncs_sneakers",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/razzberry_and_black_stripped_shirt",
+                "minecraft:item_model": "ncrs:cosmetics/green_ncs_sneakers",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/razzberry_and_black_stripped_shirt"
+                    "id": "ncrs:cosmetics/green_ncs_sneakers"
                   }
                 },
                 "minecraft:max_stack_size": 1

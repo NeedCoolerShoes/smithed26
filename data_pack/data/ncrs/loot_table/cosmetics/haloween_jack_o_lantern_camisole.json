@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Razzberry and black stripped shirt",
+                "text": "Haloween Jack-o-Lantern Camisole",
                 "color": "aqua",
                 "italic": false
               }
@@ -20,7 +20,7 @@
               "lore": [
                 [
                   {
-                    "text": "Restored on ",
+                    "text": "Designed on ",
                     "color": "white",
                     "italic": false
                   },
@@ -42,25 +42,14 @@
                     "italic": false
                   },
                   {
-                    "text": "@kittykay27",
+                    "text": "@wulfian",
                     "color": "aqua",
                     "italic": false
                   }
                 ],
                 "",
                 {
-                  "text": "https://ncrs.skin/s/9550",
-                  "color": "gray",
-                  "italic": false
-                },
-                "",
-                {
-                  "text": "This item was archived from the old site,",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "and has been lovingly restored.",
+                  "text": "https://ncrs.skin/s/3032",
                   "color": "gray",
                   "italic": false
                 }
@@ -72,13 +61,13 @@
               "components": {
                 "minecraft:equippable": {
                   "slot": "chest",
-                  "asset_id": "ncrs:razzberry_and_black_stripped_shirt",
+                  "asset_id": "ncrs:haloween_jack_o_lantern_camisole",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/razzberry_and_black_stripped_shirt",
+                "minecraft:item_model": "ncrs:cosmetics/haloween_jack_o_lantern_camisole",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/razzberry_and_black_stripped_shirt"
+                    "id": "ncrs:cosmetics/haloween_jack_o_lantern_camisole"
                   }
                 },
                 "minecraft:max_stack_size": 1

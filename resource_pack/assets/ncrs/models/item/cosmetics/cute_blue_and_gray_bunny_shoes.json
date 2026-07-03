@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ncrs:item/cosmetics/cute_blue_and_gray_bunny_shoes"
+  }
+}

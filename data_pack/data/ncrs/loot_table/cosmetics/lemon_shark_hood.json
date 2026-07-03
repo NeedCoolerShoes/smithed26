@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Razzberry and black stripped shirt",
+                "text": "Lemon Shark Hood",
                 "color": "aqua",
                 "italic": false
               }
@@ -20,7 +20,7 @@
               "lore": [
                 [
                   {
-                    "text": "Restored on ",
+                    "text": "Designed on ",
                     "color": "white",
                     "italic": false
                   },
@@ -42,25 +42,14 @@
                     "italic": false
                   },
                   {
-                    "text": "@kittykay27",
+                    "text": "@lemon-shark",
                     "color": "aqua",
                     "italic": false
                   }
                 ],
                 "",
                 {
-                  "text": "https://ncrs.skin/s/9550",
-                  "color": "gray",
-                  "italic": false
-                },
-                "",
-                {
-                  "text": "This item was archived from the old site,",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "and has been lovingly restored.",
+                  "text": "https://ncrs.skin/s/47383",
                   "color": "gray",
                   "italic": false
                 }
@@ -71,14 +60,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:equippable": {
-                  "slot": "chest",
-                  "asset_id": "ncrs:razzberry_and_black_stripped_shirt",
+                  "slot": "head",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/razzberry_and_black_stripped_shirt",
+                "minecraft:item_model": "ncrs:cosmetics/lemon_shark_hood",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/razzberry_and_black_stripped_shirt"
+                    "id": "ncrs:cosmetics/lemon_shark_hood"
                   }
                 },
                 "minecraft:max_stack_size": 1

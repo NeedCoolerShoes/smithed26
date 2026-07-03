@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Razzberry and black stripped shirt",
+                "text": "Rainbow tie up boots",
                 "color": "aqua",
                 "italic": false
               }
@@ -49,7 +49,7 @@
                 ],
                 "",
                 {
-                  "text": "https://ncrs.skin/s/9550",
+                  "text": "https://ncrs.skin/s/813",
                   "color": "gray",
                   "italic": false
                 },
@@ -71,14 +71,14 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:equippable": {
-                  "slot": "chest",
-                  "asset_id": "ncrs:razzberry_and_black_stripped_shirt",
+                  "slot": "feet",
+                  "asset_id": "ncrs:rainbow_tie_up_boots",
                   "swappable": true
                 },
-                "minecraft:item_model": "ncrs:cosmetics/razzberry_and_black_stripped_shirt",
+                "minecraft:item_model": "ncrs:cosmetics/rainbow_tie_up_boots",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/razzberry_and_black_stripped_shirt"
+                    "id": "ncrs:cosmetics/rainbow_tie_up_boots"
                   }
                 },
                 "minecraft:max_stack_size": 1

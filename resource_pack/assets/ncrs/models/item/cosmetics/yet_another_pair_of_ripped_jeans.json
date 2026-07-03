@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ncrs:item/cosmetics/yet_another_pair_of_ripped_jeans"
+  }
+}

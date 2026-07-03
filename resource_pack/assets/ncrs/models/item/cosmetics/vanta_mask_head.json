@@ -1,0 +1,7 @@
+{
+  "parent": "ncrs:item/head",
+  "textures": {
+    "0": "ncrs:item/cosmetics/vanta_mask_head",
+    "particle": "ncrs:item/cosmetics/vanta_mask_head"
+  }
+}

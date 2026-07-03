@@ -2,7 +2,7 @@
   "layers": {
     "humanoid": [
       {
-        "texture": "ncrs:green_t_shirt"
+        "texture": "ncrs:white_coat"
       }
     ]
   }

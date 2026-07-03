@@ -1,0 +1,7 @@
+{
+  "parent": "ncrs:item/head",
+  "textures": {
+    "0": "ncrs:item/cosmetics/gary_the_snail_head",
+    "particle": "ncrs:item/cosmetics/gary_the_snail_head"
+  }
+}
