@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -43,
+                "max": -36
+              },
+              "y": {
+                "min": 61,
+                "max": 65
+              },
+              "z": {
+                "min": -236,
+                "max": -220
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ncrs:mirror/player"
+  }
+}
