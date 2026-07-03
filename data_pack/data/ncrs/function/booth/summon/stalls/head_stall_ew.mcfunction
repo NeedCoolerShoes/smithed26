@@ -1,0 +1,19 @@
+summon item_display ~ ~0.625 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display"], item: {id: "stick", components: {item_model: "ncrs:hat_shelf"}},Rotation:[180,0]}
+
+summon item_display ~-0.625 ~1.75 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], item: {id: "player_head", components: {item_model: "ncrs:cosmetics/miner_s_hard_hat"}},Rotation:[180,0],item_display: "head",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon interaction ~-0.625 ~1.475 ~ {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.5,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "head", id: "miner_s_hard_hat"}}}}
+
+summon item_display ~ ~1.75 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], item: {id: "player_head", components: {item_model: "ncrs:cosmetics/miner_s_hard_hat"}},Rotation:[180,0],item_display: "head",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon interaction ~ ~1.475 ~ {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.5,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "head", id: "miner_s_hard_hat"}}}}
+
+summon item_display ~0.625 ~1.75 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], item: {id: "player_head", components: {item_model: "ncrs:cosmetics/miner_s_hard_hat"}},Rotation:[180,0],item_display: "head",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon interaction ~0.625 ~1.475 ~ {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.5,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "head", id: "miner_s_hard_hat"}}}}
+
+summon item_display ~-0.625 ~0.875 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], item: {id: "player_head", components: {item_model: "ncrs:cosmetics/miner_s_hard_hat"}},Rotation:[180,0],item_display: "head",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon interaction ~-0.625 ~0.6 ~ {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.5,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "head", id: "miner_s_hard_hat"}}}}
+
+summon item_display ~ ~0.875 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], item: {id: "player_head", components: {item_model: "ncrs:cosmetics/miner_s_hard_hat"}},Rotation:[180,0],item_display: "head",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon interaction ~ ~0.6 ~ {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.5,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "head", id: "miner_s_hard_hat"}}}}
+
+summon item_display ~0.625 ~0.875 ~ {Tags:["ncrs.shop.stall", "ncrs.shop.stall_display_item"], item: {id: "player_head", components: {item_model: "ncrs:cosmetics/miner_s_hard_hat"}},Rotation:[180,0],item_display: "head",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon interaction ~0.625 ~0.6 ~ {Tags:["summit.interactable","ncrs.shop.stall","ncrs.shop.stall_interaction"],width:0.5,height:0.5,data:{summit_interactable:{on_right_click:"function ncrs:cosmetic/give"},ncrs:{cosmetic:{type: "head", id: "miner_s_hard_hat"}}}}
