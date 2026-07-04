@@ -13,5 +13,10 @@ summon item_display -38 63.5 -224.0 {Tags:["ncrs.shop.decor"],item:{id:"stick",c
 summon item_display -41 63.5 -236.0 {Tags:["ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/clothes_red"}},transformation:{left_rotation:[0f,0f,-0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[0,0]}
 summon item_display -47 63.5 -235.875 {Tags:["ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/clothes_red"}},transformation:{left_rotation:[0f,0f,-0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[180,0]}
 
-# 
+summon item_display -43.0 70.5 -225.0 {Tags:["ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/qrcode"}},transformation:{left_rotation:[0f,0f,-0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[-90,0]}
+summon item_display -44.0 70.5 -234.0 {Tags:["ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/mobile"}},transformation:{left_rotation:[0f,0f,0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[0,0]}
+summon item_display -43.0 80 -220.0 {Tags:["ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/adfree"}},transformation:{left_rotation:[0f,0f,0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[-90,0]}
+
+
+# Special
 summon item_display -46 63.5 -221.0 {Tags:["ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/holy"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},Rotation:[0,0]}

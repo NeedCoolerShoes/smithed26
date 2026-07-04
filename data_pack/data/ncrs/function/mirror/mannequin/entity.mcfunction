@@ -1,5 +1,5 @@
-execute on passengers if function ncrs:mirror/mannequin/kill run return -1
 execute on passengers on target run function ncrs:mirror/mannequin/player_data
+execute on passengers if function ncrs:mirror/mannequin/kill run return -1
 
 scoreboard players set $x ncrs.mirror -43500
 scoreboard players set $dx ncrs.mirror -43500

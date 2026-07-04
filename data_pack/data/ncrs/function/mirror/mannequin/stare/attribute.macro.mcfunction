@@ -1,0 +1,1 @@
+$attribute @s movement_speed modifier add ncrs:mirror/stare -$(amount) add_multiplied_base
