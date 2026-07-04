@@ -4,6 +4,7 @@ scoreboard objectives add ncrs.mask.cooldown dummy
 scoreboard objectives add ncrs.mirror dummy
 scoreboard objectives add ncrs.booth.summon.stalls.assign dummy
 scoreboard objectives add ncrs.booth dummy
+scoreboard objectives add ncrs.booth.mannequins dummy
 
 scoreboard players set $-1 ncrs.constants -1
 scoreboard players set $8 ncrs.constants 8

@@ -12,7 +12,7 @@ summon item_display ~0.5 ~-0.5 ~0.5 {item:{id:"minecraft:stick",count:1,componen
 
 # Paintbrush Display
 kill 7286a4f8-54fc-4b89-85b1-1cf4fb1a7bec
-summon item_display ~0.38 ~0.375 ~0.3 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[-90f,90f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
+summon item_display ~0.125 ~0.375 ~0.25 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
 
 # Confirm Button Display
 kill d165ed62-c858-4e75-9a2c-06a791aebfc5
