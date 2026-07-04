@@ -1,49 +1,7 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
+	"parent":"minecraft:item/generated",
 	"textures": {
-		"0": "ncrs:item/brush",
-		"particle": "ncrs:item/brush"
-	},
-	"elements": [
-		{
-			"name": "brush_base",
-			"from": [3, 0, 0],
-			"to": [13, 0, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 0]},
-			"faces": {
-				"up": {"uv": [11, 16, 1, 7], "texture": "#0"},
-				"down": {"uv": [11, 7, 1, 16], "texture": "#0"}
-			}
-		},
-		{
-			"name": "brush_base_2",
-			"from": [7, 0, 9],
-			"to": [9, 0, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 9]},
-			"faces": {
-				"up": {"uv": [8, 7, 6, 4], "texture": "#0"},
-				"down": {"uv": [8, 4, 6, 7], "texture": "#0"}
-			}
-		},
-		{
-			"name": "brush_tip",
-			"from": [3, 0, 9],
-			"to": [7, 0, 14],
-			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 9]},
-			"faces": {
-				"up": {"uv": [12, 7, 8, 2], "texture": "#0", "tintindex": 0},
-				"down": {"uv": [12, 2, 8, 7], "texture": "#0", "tintindex": 0}
-			}
-		}
-	],
-	"groups": [
-		{
-			"name": "brush",
-			"origin": [8, 8, 8],
-			"scope": 0,
-			"color": 0,
-			"children": [0, 1, 2]
-		}
-	]
+		"layer0": "ncrs:item/brush_tip",
+		"layer1": "ncrs:item/brush"
+	}
 }
