@@ -1,0 +1,2 @@
+execute if predicate ncrs:mirror/in_bounds unless entity @s[tag=ncrs.using_mirror] run function ncrs:mirror/join
+execute unless predicate ncrs:mirror/in_bounds if entity @s[tag=ncrs.using_mirror] run function ncrs:mirror/leave

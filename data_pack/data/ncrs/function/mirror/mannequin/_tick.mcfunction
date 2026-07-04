@@ -1,0 +1,1 @@
+execute as @e[type=mannequin,tag=ncrs.mirror.entity] run function ncrs:mirror/mannequin/entity
