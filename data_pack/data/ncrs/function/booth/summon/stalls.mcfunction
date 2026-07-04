@@ -11,12 +11,11 @@ execute positioned -42 69 -235 run function ncrs:booth/summon/stalls/legs_stall_
 execute positioned -36 69 -215 run function ncrs:booth/summon/stalls/chest_stall_ns
 execute positioned -34 69 -215 run function ncrs:booth/summon/stalls/legs_stall_ns
 
-execute positioned -28 78 -225 run function ncrs:booth/summon/stalls/head_stall_ns
-execute positioned -28 78 -222 run function ncrs:booth/summon/stalls/feet_stall_ns
-execute positioned -28 78 -219 run function ncrs:booth/summon/stalls/feet_stall_ns
+execute positioned -43 78 -223 run function ncrs:booth/summon/stalls/feet_stall_ns
+execute positioned -31 78 -228 run function ncrs:booth/summon/stalls/feet_stall_we
 
-execute positioned -30 78 -216 run function ncrs:booth/summon/stalls/head_stall_ew
-execute positioned -33 78 -216 run function ncrs:booth/summon/stalls/feet_stall_ew
-
+execute positioned -31 78 -216 run function ncrs:booth/summon/stalls/head_stall_ew
+execute positioned -34 78 -216 run function ncrs:booth/summon/stalls/head_stall_ew
+execute positioned -37 78 -216 run function ncrs:booth/summon/stalls/feet_stall_ew
 
 function ncrs:booth/summon/stalls/assign/init

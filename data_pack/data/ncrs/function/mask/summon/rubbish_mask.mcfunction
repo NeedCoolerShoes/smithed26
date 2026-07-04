@@ -8,4 +8,4 @@ summon text_display ~0.26 ~0.4 ~0.25 {text: {text: "Reset Mask", color: "red"},U
 
 # Rubbish Interaction: e0104d96-65ef-42de-b690-d317b5825864
 kill e0104d96-65ef-42de-b690-d317b5825864
-summon interaction ~ ~ ~0.25 {Tags:["summit.in_booth.ncrs","summit.interactable"],UUID:[I; -535802474, 1710179038, -1232022761, -1249748892],height:0.8,width:1.2,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/reset",on_right_click:"function ncrs:mask/reset"}}}
+summon interaction ~ ~ ~0.25 {Tags:["summit.booth_entity.ncrs","summit.interactable"],UUID:[I; -535802474, 1710179038, -1232022761, -1249748892],height:0.8,width:1.2,data:{summit_interactable:{on_left_click:"function ncrs:mask/draw/reset",on_right_click:"function ncrs:mask/reset"}}}
