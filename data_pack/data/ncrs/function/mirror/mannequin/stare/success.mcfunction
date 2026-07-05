@@ -20,5 +20,5 @@ execute store result storage ncrs:mirror/stare macro.x double 0.001 run scoreboa
 data modify storage ncrs:mirror/stare macro.y set from storage ncrs:mirror player.Pos[1]
 data modify storage ncrs:mirror/stare macro.z set from storage ncrs:mirror player.Pos[2]
 
-execute at @s run playsound minecraft:entity.enderman.teleport player @s ~ ~ ~ 1 1
+execute at @s run playsound minecraft:entity.allay.ambient_without_item player @s ~ ~ ~ 1 1
 function ncrs:mirror/mannequin/stare/tp.macro with storage ncrs:mirror/stare macro
