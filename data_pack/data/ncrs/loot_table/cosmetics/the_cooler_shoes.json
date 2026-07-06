@@ -52,7 +52,26 @@
                   "text": "https://ncrs.skin/s/9372",
                   "color": "gray",
                   "italic": false
-                }
+                },
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
               ],
               "mode": "replace_all"
             },
@@ -67,7 +86,13 @@
                 "minecraft:item_model": "ncrs:cosmetics/the_cooler_shoes",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/the_cooler_shoes"
+                    "id": "ncrs:cosmetics/the_cooler_shoes",
+                    "tags": [
+                      "cosmetic"
+                    ]
+                  },
+                  "summit": {
+                    "persist": {}
                   }
                 },
                 "minecraft:max_stack_size": 1

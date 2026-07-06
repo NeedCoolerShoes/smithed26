@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "ncrs:item/decor/graffiti",
-		"particle": "ncrs:item/decor/graffiti"
+		"0": "ncrs:item/decor/graffiti/cooler_shoes",
+		"particle": "ncrs:item/decor/graffiti/cooler_shoes"
 	},
 	"elements": [
 		{

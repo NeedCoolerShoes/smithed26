@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "location": {
+    "minecraft:location": {
       "position": {
         "x": {
           "min": -43,

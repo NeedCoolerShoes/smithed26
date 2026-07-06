@@ -1,0 +1,6 @@
+{
+	"parent": "ncrs:item/decor/graffiti",
+	"textures": {
+		"0": "ncrs:item/decor/graffiti/lil_meow_meow"
+	}
+}

@@ -1,0 +1,1 @@
+tellraw @s [{player: {name: "NeedCoolerShoes"}}," \"Oh? You are asking about me? Well I am the mascot of NeedCoolerShoes.\"\n\n",{player: {name: "NeedCoolerShoes"}}," \"I was designed by @doofus for the first skin jam of NeedCoolerShoes, and was the winning entry.\"\n\n",{text:"Continue...",color: "blue",click_event:{action:"run_command",command:"/trigger ncrs.dialog set 1210"}}]
