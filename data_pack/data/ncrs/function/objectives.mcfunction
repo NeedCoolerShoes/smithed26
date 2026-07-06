@@ -11,6 +11,7 @@ scoreboard objectives add ncrs.mirror.enter_y dummy
 scoreboard objectives add ncrs.mirror.enter_z dummy
 scoreboard objectives add ncrs.mirror.enter_rot_x dummy
 scoreboard objectives add ncrs.mirror.enter_rot_y dummy
+scoreboard objectives add ncrs.dialog trigger
 
 scoreboard objectives add ncrs.booth.summon.stalls.assign dummy
 scoreboard objectives add ncrs.booth dummy

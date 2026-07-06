@@ -1,0 +1,1 @@
+advancement revoke @s only ncrs:dialog/april

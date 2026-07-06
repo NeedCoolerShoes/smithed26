@@ -1,0 +1,1 @@
+execute on target run tellraw @s ["---\n",{player: {name: "NeedCoolerShoes"}}," Welcome to our Booth! I am Little Meow Meow, the mascot of needcoolershoes.com!","\n* ", {text:"What is NeedCoolerShoes?",color: "blue"},"\n* ", {text:"Tell me more about yourself.",color: "blue"},"\n* ", {text:"What is there to do in this booth?",color: "blue"},"\n---"]

@@ -3,3 +3,5 @@ execute if data storage ncrs:cosmetic {has_item: true} run return run function n
 
 function ncrs:cosmetic/give.macro with storage ncrs:cosmetic current
 execute at @s run playsound entity.item.pickup block @s ~ ~ ~
+
+return 1
