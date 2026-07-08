@@ -13,13 +13,7 @@ execute unless score $last_rot_y ncrs.mirror = @s ncrs.mirror.rot_y run return r
 
 scoreboard players add @s ncrs.mirror.stare_time 1
 
-execute if score @s ncrs.mirror.stare_time matches ..40 run return -1
-execute if score @s ncrs.mirror.stare_time matches 100.. run return run function ncrs:mirror/mannequin/stare/success
+execute unless predicate ncrs:mirror/has_holy_mask run return -1
 
-scoreboard players operation $stare_time ncrs.mirror = @s ncrs.mirror.stare_time
-scoreboard players remove $stare_time ncrs.mirror 40
-
-execute store result storage ncrs:mirror/stare macro.amount float 0.0075 run scoreboard players get $stare_time ncrs.mirror
-
-attribute @s movement_speed modifier remove ncrs:mirror/stare
-function ncrs:mirror/mannequin/stare/attribute.macro with storage ncrs:mirror/stare macro
+scoreboard players add @s ncrs.mirror.stare_time_eegg 1
+execute if score @s ncrs.mirror.stare_time_eegg matches 40.. run function ncrs:mirror/mannequin/stare/easteregg

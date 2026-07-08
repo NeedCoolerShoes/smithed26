@@ -17,3 +17,4 @@ schedule function ncrs:mask/get/unpress 10t
 execute store result score @s ncrs.mask.cooldown run time query gametime
 function ncrs:mask/draw/set_color/black
 function ncrs:mask/draw/reset
+advancement grant @s only summit.sticker_book:ncrs/masks

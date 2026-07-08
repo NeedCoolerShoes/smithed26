@@ -5,3 +5,5 @@ execute if entity @s[tag=ncrs.in_mirror] unless predicate ncrs:mirror/has_holy_m
 
 scoreboard players enable @s ncrs.dialog
 execute if score @s ncrs.dialog matches 1.. run function ncrs:dialog/index
+
+execute if predicate ncrs:drippy run advancement grant @s only summit.sticker_book:ncrs/clothes

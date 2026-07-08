@@ -22,10 +22,6 @@
           }
         }
       }
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "ncrs:mirror/has_holy_mask"
     }
   ]
 }

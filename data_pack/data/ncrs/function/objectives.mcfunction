@@ -4,6 +4,7 @@ scoreboard objectives add ncrs.mask.cooldown dummy
 
 scoreboard objectives add ncrs.mirror dummy
 scoreboard objectives add ncrs.mirror.stare_time dummy
+scoreboard objectives add ncrs.mirror.stare_time_eegg dummy
 scoreboard objectives add ncrs.mirror.rot_y dummy
 scoreboard objectives add ncrs.mirror.rot_x dummy
 scoreboard objectives add ncrs.mirror.enter_x dummy
@@ -11,6 +12,7 @@ scoreboard objectives add ncrs.mirror.enter_y dummy
 scoreboard objectives add ncrs.mirror.enter_z dummy
 scoreboard objectives add ncrs.mirror.enter_rot_x dummy
 scoreboard objectives add ncrs.mirror.enter_rot_y dummy
+
 scoreboard objectives add ncrs.dialog trigger
 
 scoreboard objectives add ncrs.booth.summon.stalls.assign dummy

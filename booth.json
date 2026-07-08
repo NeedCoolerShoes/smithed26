@@ -1,0 +1,59 @@
+{
+  "namespace": "ncrs",
+  "booth_name": "NeedCoolerShoes",
+  "bounding_boxes": {
+    "main": {
+      "position": {
+        "x": {"min": -55, "max": -20},
+        "y": {"min": 59, "max": 98},
+        "z": {"min": -238, "max": -210}
+      }
+    },
+    "sticker": {
+      "position": {
+        "x": {"min": -29, "max": -27},
+        "y": {"min": 85, "max": 87},
+        "z": {"min": -219, "max": -217}
+      },
+      "on_player_enter": "ncrs:booth/sticker"
+    }
+  },
+  "on_player_exit": "ncrs:player/exit",
+  "ticking_functions": {
+    "ncrs:tick": "1t"
+  },
+  "sticker_book": {
+    "background_color": "#f6c532",
+    "region": "patched_plateaus",
+    "stickers": [
+      {
+        "sticker_id": "booth",
+        "sticker_texture": "ncrs:item/stickers/booth",
+        "sticker_name": "I Need Cooler Shoes!",
+        "unobtained_text": "Explore the NeedCoolerShoes booth to obtain this sticker.",
+        "obtained_text": "Explored the NeedCoolerShoes booth"
+      },
+      {
+        "sticker_id": "clothes",
+        "sticker_texture": "ncrs:item/stickers/clothes",
+        "sticker_name": "Drip From Head to Toes",
+        "unobtained_text": "Deck yourself out with clothing from the booth.",
+        "obtained_text": "Got drippy at the NeedCoolerShoes booth."
+      },
+      {
+        "sticker_id": "masks",
+        "sticker_texture": "ncrs:item/stickers/masks",
+        "sticker_name": "Picasso?",
+        "unobtained_text": "Paint yourself a mask.",
+        "obtained_text": "Painted your own mask at the NeedCoolerShoes booth."
+      },
+      {
+        "sticker_id": "mirror",
+        "sticker_texture": "ncrs:item/stickers/mirror",
+        "sticker_name": "Magic Mirror, On the Wall",
+        "unobtained_text": "Stare in to the mirror.",
+        "obtained_text": "Gazed upon yourself in the changing room at the NeedCoolerShoes booth."
+      }
+    ]
+  }
+}

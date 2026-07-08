@@ -4,7 +4,7 @@
   "predicate": {
     "minecraft:equipment": {
       "head": {
-        "components": {
+        "predicates": {
           "minecraft:custom_data": {
             "ncrs": {
               "id": "ncrs:holy_mask"

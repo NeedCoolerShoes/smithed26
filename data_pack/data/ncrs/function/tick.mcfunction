@@ -1,4 +1,4 @@
-execute as @a[tag=summit.in_booth.ncrs] run function ncrs:player
+execute as @a[tag=summit.in_booth.ncrs] run function ncrs:player/tick
 function ncrs:mirror/mannequin/_tick
 
 function ncrs:booth/restock

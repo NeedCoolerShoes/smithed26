@@ -1,0 +1,52 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "ncrs": {
+              "tags": [
+                "cosmetic"
+              ]
+            }
+          }
+        }
+      },
+      "chest": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "ncrs": {
+              "tags": [
+                "cosmetic"
+              ]
+            }
+          }
+        }
+      },
+      "legs": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "ncrs": {
+              "tags": [
+                "cosmetic"
+              ]
+            }
+          }
+        }
+      },
+      "feet": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "ncrs": {
+              "tags": [
+                "cosmetic"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
