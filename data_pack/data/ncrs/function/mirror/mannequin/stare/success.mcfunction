@@ -22,3 +22,5 @@ data modify storage ncrs:mirror/stare macro.z set from storage ncrs:mirror playe
 
 execute at @s run playsound minecraft:entity.allay.ambient_without_item player @s ~ ~ ~ 1 1
 function ncrs:mirror/mannequin/stare/tp.macro with storage ncrs:mirror/stare macro
+
+advancement grant @s only summit.sticker_book:ncrs/secret

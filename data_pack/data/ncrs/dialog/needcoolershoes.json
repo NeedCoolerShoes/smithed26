@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:notice",
+  "title": "Visit NeedCoolerShoes!",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "\n\n\n\nThe ultimate skin editor and gallery. Create skins from scratch, or using parts made by the community, then share for all to see!"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "player": {
+            "name": "NeedCoolerShoes"
+          }
+        },
+        " ",
+        {
+          "text": "needcoolershoes.com",
+          "color": "aqua",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://needcoolershoes.com"
+          }
+        }
+      ]
+    }
+  ]
+}

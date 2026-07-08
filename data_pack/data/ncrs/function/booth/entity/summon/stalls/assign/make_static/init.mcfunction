@@ -1,0 +1,1 @@
+execute as @e[tag=ncrs.shop.stall_display_item] run function ncrs:booth/entity/summon/stalls/assign/make_static/entity

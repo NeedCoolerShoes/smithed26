@@ -31,7 +31,7 @@
         "sticker_texture": "ncrs:item/stickers/booth",
         "sticker_name": "I Need Cooler Shoes!",
         "unobtained_text": "Explore the NeedCoolerShoes booth to obtain this sticker.",
-        "obtained_text": "Explored the NeedCoolerShoes booth"
+        "obtained_text": "Explored the NeedCoolerShoes booth. https://needcoolershoes.com"
       },
       {
         "sticker_id": "clothes",
@@ -53,7 +53,21 @@
         "sticker_name": "Magic Mirror, On the Wall",
         "unobtained_text": "Stare in to the mirror.",
         "obtained_text": "Gazed upon yourself in the changing room at the NeedCoolerShoes booth."
+      },
+      {
+        "sticker_id": "secret",
+        "sticker_texture": "ncrs:item/stickers/secret",
+        "sticker_name": "???",
+        "unobtained_text": "Talk to April about the secret. She will help.",
+        "obtained_text": "As I looked at my reflection I noticed it winked at me."
       }
     ]
-  }
+  },
+  "balloons": [
+    {
+      "balloon_id": "main",
+      "balloon_name": "Visit NeedCoolerShoes.com!",
+      "balloon_model": "ncrs:item/balloon"
+    }
+  ]
 }

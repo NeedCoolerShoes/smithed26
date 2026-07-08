@@ -10,6 +10,10 @@ function ncrs:booth/entity/summon/stalls/assign/index.macro with storage ncrs:bo
 function ncrs:booth/entity/summon/stalls/assign/get_id with storage ncrs:booth/entity/summon/stalls/assign current
 
 data modify entity @s data.ncrs.cosmetic.id set from storage ncrs:booth/entity/summon/stalls/assign current.new_id
-execute if data storage ncrs:booth/entity/summon/stalls/assign current{type: "head"} run return run function ncrs:booth/entity/summon/stalls/assign/entity_head.macro with storage ncrs:booth/entity/summon/stalls/assign current
 
-function ncrs:booth/entity/summon/stalls/assign/entity.macro with storage ncrs:booth/entity/summon/stalls/assign current
+# Turns the armor stands back to static in a tick
+schedule function ncrs:booth/entity/summon/stalls/assign/make_static/init 10t
+
+execute if data storage ncrs:booth/entity/summon/stalls/assign current{type: "head"} as @n[type=item_display,tag=ncrs.shop.stall_display_item] run return run function ncrs:booth/entity/summon/stalls/assign/entity_head.macro with storage ncrs:booth/entity/summon/stalls/assign current
+
+execute as @n[type=armor_stand,tag=ncrs.shop.stall_display_item] run function ncrs:booth/entity/summon/stalls/assign/entity.macro with storage ncrs:booth/entity/summon/stalls/assign current

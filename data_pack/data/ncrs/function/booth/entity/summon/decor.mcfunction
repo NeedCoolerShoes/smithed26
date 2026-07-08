@@ -19,5 +19,14 @@ summon item_display -43.0 70.5 -225.0 {Tags:["summit.booth_entity.ncrs","summit.
 summon item_display -44.0 70.5 -234.0 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/mobile"}},transformation:{left_rotation:[0f,0f,0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[0,0]}
 summon item_display -43.0 80 -220.0 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/adfree"}},transformation:{left_rotation:[0f,0f,0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[-90,0]}
 
+summon item_display -36.01 63.5 -217.2 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/posters/qrcode"}},transformation:{left_rotation:[0f,0f,-0.050f,0.999f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[90,0]}
+
 # Special
 summon item_display -46 63.5 -221.0 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/holy"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},Rotation:[0,0]}
+
+# Front Desk
+summon item_display -30.837 70 -221.0 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/promo"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[-90,0],brightness:{sky:15,block:15}}
+summon text_display -30.81 69.18 -221.85 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],text:["Visit ", {text: "NeedCoolerShoes.com", color: "gold"},"\nThe ultimate skin editor!","\n\nNo ads. Has layers, filters\nand works desktop or mobile!"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Rotation:[-90,0],background:0,alignment:"left"}
+
+summon item_display -35.163 70 -224.0 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],item:{id:"stick",components:{item_model:"ncrs:decor/promo"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},Rotation:[90,0],brightness:{sky:15,block:15}}
+summon text_display -35.19 69.18 -223.15 {Tags:["summit.booth_entity.ncrs","summit.static","ncrs.shop.decor"],text:["Visit ", {text: "NeedCoolerShoes.com", color: "gold"},"\nThe ultimate skin editor!","\n\nNo ads. Has layers, filters\nand works desktop or mobile!"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Rotation:[90,0],background:0,alignment:"left"}

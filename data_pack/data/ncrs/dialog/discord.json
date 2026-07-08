@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:notice",
+  "title": "Join our Discord!",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "\n\n\n\nThe best place to chat about NeedCoolerShoes, skinning, and Minecraft in general!"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        "",
+        {
+          "font": "summit_icons:icons",
+          "translate": "summit_icons.discord"
+        },
+        " ",
+        {
+          "text": "discord.gg/FEfbZYvQUa",
+          "color": "aqua",
+          "underlined": true,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://discord.gg/FEfbZYvQUa"
+          }
+        }
+      ]
+    }
+  ]
+}

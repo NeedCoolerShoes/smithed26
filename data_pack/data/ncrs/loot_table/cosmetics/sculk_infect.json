@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sculk Infect",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Designed on ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  {
+                    "text": " NeedCoolerShoes",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "by ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "@tidelta",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ],
+                "",
+                {
+                  "text": "https://ncrs.skin/s/47217",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "ncrs:sculk_infect",
+                  "swappable": true
+                },
+                "minecraft:item_model": "ncrs:cosmetics/sculk_infect",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics/sculk_infect",
+                    "tags": [
+                      "cosmetic"
+                    ]
+                  },
+                  "summit": {
+                    "persist": {}
+                  }
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

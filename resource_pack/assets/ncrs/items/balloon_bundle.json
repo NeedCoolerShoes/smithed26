@@ -1,0 +1,91 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "ncrs:item/balloon",
+        "transformation": {
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "left_rotation": [
+            -0.123,
+            -0.26,
+            -0.053,
+            0.956
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "ncrs:item/balloon",
+        "transformation": {
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "left_rotation": [
+            -0.065,
+            0.298,
+            0.062,
+            0.95
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "ncrs:item/balloon",
+        "transformation": {
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "left_rotation": [
+            0.036,
+            0.986,
+            0.08,
+            -0.144
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    ]
+  }
+}
