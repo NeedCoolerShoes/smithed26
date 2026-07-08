@@ -1,12 +1,14 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made by P4ncake",
 	"textures": {
-		"green_screen": "ncrs:item/green_screen"
+		"green_screen": "ncrs:item/green_screen",
+		"particle": "ncrs:item/green_screen"
 	},
 	"elements": [
 		{
 			"from": [16, 16, 16],
-			"to": [0, 0, 0],
+			"to": [-4, 0, -4],
 			"shade": false,
 			"light_emission": 15,
 			"faces": {
