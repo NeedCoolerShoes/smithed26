@@ -1,0 +1,1 @@
+$data modify storage ncrs:booth/entity/summon/stalls/assign options set from storage ncrs:cosmetic registry.$(type)

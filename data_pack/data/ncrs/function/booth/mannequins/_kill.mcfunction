@@ -1,0 +1,1 @@
+execute as @e[tag=ncrs.booth.mannequin] run function ncrs:booth/mannequins/kill

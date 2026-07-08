@@ -1,0 +1,1 @@
+$execute store result storage ncrs:booth/entity/summon/stalls/assign current.index int 1 run random value 0..$(max)

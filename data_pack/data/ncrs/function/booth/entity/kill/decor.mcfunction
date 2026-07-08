@@ -1,0 +1,1 @@
+kill @e[tag=ncrs.shop.decor]

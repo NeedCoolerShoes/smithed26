@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=ncrs.shop.stall_interaction] at @s run function ncrs:booth/entity/summon/stalls/assign/entity

@@ -1,0 +1,1 @@
+kill @e[type=item_display,tag=summit.booth_entity.ncrs,tag=ncrs.booth.window]

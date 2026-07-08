@@ -1,5 +1,3 @@
-kill @e[type=interaction,distance=..10,tag=ncrs.mask.palette]
-
 execute positioned ~0.125 ~ ~0.625 run function ncrs:mask/summon/palette.macro {color: "red"}
 execute positioned ~0.3125 ~ ~0.375 run function ncrs:mask/summon/palette.macro {color: "orange"}
 execute positioned ~0.0625 ~ ~0.3125 run function ncrs:mask/summon/palette.macro {color: "yellow"}

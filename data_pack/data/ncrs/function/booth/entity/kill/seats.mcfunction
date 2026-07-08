@@ -1,0 +1,1 @@
+kill @e[type=interaction,tag=ncrs.booth.seat]

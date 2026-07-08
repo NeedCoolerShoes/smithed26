@@ -1,0 +1,1 @@
+$data modify storage ncrs:booth/entity/summon/stalls/assign current.new_id set from storage ncrs:booth/entity/summon/stalls/assign options[$(index)]

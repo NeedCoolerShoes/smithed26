@@ -1,0 +1,1 @@
+kill @e[type=interaction,distance=..10,tag=ncrs.mask.palette]

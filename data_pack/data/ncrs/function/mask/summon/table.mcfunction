@@ -1,34 +1,25 @@
 # Mask Display
-kill 8d03c836-806b-4aee-8ae2-a4e2714d70c4
-summon item_display ~-0.2 ~0.4 ~-0.4375 {item:{id:"minecraft:stick",count:1,components:{"minecraft:item_model":"ncrs:mask","minecraft:custom_model_data":{colors:[15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495]}}},UUID:[I; -1929131978, -2140452114, -1964858142, 1900900548],Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},Tags:["summit.dynamic"]}
+summon item_display ~-0.2 ~0.4 ~-0.4375 {Tags:["summit.booth_entity.ncrs","summit.dynamic"],item:{id:"minecraft:stick",count:1,components:{"minecraft:item_model":"ncrs:mask","minecraft:custom_model_data":{colors:[15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495,15264495]}}},UUID:[I; -1929131978, -2140452114, -1964858142, 1900900548],Rotation:[-90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},Tags:["summit.dynamic"]}
 
 # Mask Interaction
-kill 510d5ac2-844e-40f2-a67c-d6b88e962d5d
-summon interaction ~-0.2 ~0.02 ~-0.4375 {Tags:["summit.interactable","summit.static"],data:{summit_interactable:{on_right_click:"function ncrs:mask/right_click",on_left_click:"function ncrs:mask/left_click"}},UUID:[I; 1359829698, -2075246350, -1501768008, -1902760611],width:0.75,height:0.75}
+summon interaction ~-0.2 ~0.02 ~-0.4375 {Tags:["summit.booth_entity.ncrs","summit.static","summit.interactable"],data:{summit_interactable:{on_right_click:"function ncrs:mask/right_click",on_left_click:"function ncrs:mask/left_click"}},UUID:[I; 1359829698, -2075246350, -1501768008, -1902760611],width:0.75,height:0.75}
 
 # Desk Display
-kill 54f653f1-9040-4837-aa9b-3026d1a98da6
-summon item_display ~0.5 ~-0.5 ~0.5 {item:{id:"minecraft:stick",count:1,components:{"minecraft:item_model":"ncrs:mask_bench"}},UUID:[I; 1425429489, -1874835401, -1432670170, -777417306],Rotation:[-90f,0f]}
+summon item_display ~0.5 ~-0.5 ~0.5 {Tags:["summit.booth_entity.ncrs","summit.static"],item:{id:"minecraft:stick",count:1,components:{"minecraft:item_model":"ncrs:mask_bench"}},UUID:[I; 1425429489, -1874835401, -1432670170, -777417306],Rotation:[-90f,0f]}
 
 # Paintbrush Display
-kill 7286a4f8-54fc-4b89-85b1-1cf4fb1a7bec
-summon item_display ~0.125 ~0.375 ~0.25 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
+summon item_display ~0.125 ~0.375 ~0.25 {Tags:["summit.booth_entity.ncrs","summit.dynamic"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
 
 # Confirm Button Display
-kill d165ed62-c858-4e75-9a2c-06a791aebfc5
-summon item_display ~-0.5 ~0.5 ~1.5 {item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:confirm_button"}},UUID:[I; -781849246, -933736843, -1708390745, -1850818619],Rotation:[90f,0f]}
+summon item_display ~-0.5 ~0.5 ~1.5 {Tags:["summit.booth_entity.ncrs","summit.dynamic"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:confirm_button"}},UUID:[I; -781849246, -933736843, -1708390745, -1850818619],Rotation:[90f,0f]}
 
 # Confirm Button Interaction
-kill e8d9e205-50d8-4d56-8bad-6ec714b811a3
-summon interaction ~-0.5 ~ ~1.5 {Tags:["summit.interactable","summit.static"],UUID:[I; -388374011, 1356352854, -1951568185, 347607459],width:0.4,height:0.25,data:{summit_interactable:{on_right_click:"function ncrs:mask/get/right_click",on_left_click:"function ncrs:mask/get/left_click"}}}
+summon interaction ~-0.5 ~ ~1.5 {Tags:["summit.booth_entity.ncrs","summit.static","summit.interactable"],UUID:[I; -388374011, 1356352854, -1951568185, 347607459],width:0.4,height:0.25,data:{summit_interactable:{on_right_click:"function ncrs:mask/get/right_click",on_left_click:"function ncrs:mask/get/left_click"}}}
 
 # Confirm Button Text
-kill 20018f11-04f7-4107-bd34-967c3dbce5ef
-summon text_display ~-0.5 ~0.25 ~1.5 {text: {text: "Get Mask", color: "green"},UUID:[I; 536973073, 83312903, -1120627076, 1035789807],Rotation:[-90,0],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.3f,0.3f,0.3f]},billboard:"vertical"}
+summon text_display ~-0.5 ~0.25 ~1.5 {Tags:["summit.booth_entity.ncrs","summit.static"],text: {text: "Get Mask", color: "green"},UUID:[I; 536973073, 83312903, -1120627076, 1035789807],Rotation:[-90,0],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.3f,0.3f,0.3f]},billboard:"vertical"}
 
 # Info Text
-kill f4579d9a-4f0a-4062-ad12-cd3e1edb1f01
-summon text_display ~ ~1.375 ~0.5 {UUID: [I; -195584614, 1326071906, -1391276738, 517676801],text:{text: "Mask Painting",color:"gold"},Rotation:[-90,0],alignment:"center"}
+summon text_display ~ ~1.375 ~0.5 {Tags:["summit.booth_entity.ncrs","summit.static"],UUID: [I; -195584614, 1326071906, -1391276738, 517676801],text:{text: "Mask Painting",color:"gold"},Rotation:[-90,0],alignment:"center"}
 
-kill 028e8a05-462d-4cf2-84dd-06b9eda947cd
-summon text_display ~ ~1 ~0.5 {UUID: [I; 42895877, 1177373938, -2065889607, -307673139],text:[{text: "Interact with the mask to draw.\nInteract with the palette to pick colors.\nTalk to ",color:"white"}, {player: {properties:[{name: "textures", value: "eyJ0aW1lc3RhbXAiOjE3NzcwMTA2OTMsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwNDQ5MGNmMGVmODU1MjViODFiN2RiOGU3YjUyZDZiNjBmMzZhMzI5ODdmY2YwNzNhODY5ZTgxYmRjNzg2ODQifX19"}]}}, {text: " April", color: "aqua"}," if you need help."],Rotation:[-90,0],alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon text_display ~ ~1 ~0.5 {Tags:["summit.booth_entity.ncrs","summit.static"],UUID: [I; 42895877, 1177373938, -2065889607, -307673139],text:[{text: "Interact with the mask to draw.\nInteract with the palette to pick colors.\nTalk to ",color:"white"}, {player: {properties:[{name: "textures", value: "eyJ0aW1lc3RhbXAiOjE3NzcwMTA2OTMsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwNDQ5MGNmMGVmODU1MjViODFiN2RiOGU3YjUyZDZiNjBmMzZhMzI5ODdmY2YwNzNhODY5ZTgxYmRjNzg2ODQifX19"}]}}, {text: " April", color: "aqua"}," if you need help."],Rotation:[-90,0],alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
