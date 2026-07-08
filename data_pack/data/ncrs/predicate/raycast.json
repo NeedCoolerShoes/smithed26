@@ -2,11 +2,10 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "minecraft:player",
+    "minecraft:type_specific/player": {
       "looking_at": {
-        "nbt": "{UUID: [I; -1535574835, 379536857, -2080100543, 327419816]}",
-        "distance": {
+        "minecraft:nbt": "{UUID: [I; -1535574835, 379536857, -2080100543, 327419816]}",
+        "minecraft:distance": {
           "absolute": {
             "max": 20
           }

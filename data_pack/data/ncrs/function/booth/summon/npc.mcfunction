@@ -1,0 +1,7 @@
+execute as @e[type=mannequin,tag=ncrs.booth.npc] at @s run tp @s ~ -1000 ~
+kill @e[tag=ncrs.booth.npc]
+
+summon mannequin -32 69 -222 {Tags: ["ncrs.booth.npc","ncrs.booth.npc.meow_meow"],profile:{name:"NeedCoolerShoes"},Rotation:[-90,0],Invulnerable:true,immovable:true,CustomName:{text:"Little Meow Meow",color:"aqua"},description:"Interact with me!",CustomNameVisible:true,attributes:[{id:"name_tag_distance",base:10}]}
+summon interaction -32 69 -222 {Tags: ["summit.interactable","ncrs.booth.npc","ncrs.booth.npc.interaction"],width:0.75,height:1.85,data:{summit_interactable:{on_right_click: "function ncrs:dialog/meow_meow/welcome"}}}
+summon mannequin -35 69 -224 {Tags: ["ncrs.booth.npc","ncrs.booth.npc.april"], profile:{properties: [{name: "textures", value: "eyJ0aW1lc3RhbXAiOjE3NzcwMTA2OTMsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwNDQ5MGNmMGVmODU1MjViODFiN2RiOGU3YjUyZDZiNjBmMzZhMzI5ODdmY2YwNzNhODY5ZTgxYmRjNzg2ODQifX19"}]},Rotation:[90,0],Invulnerable:true,immovable:true,CustomName:{text:"April",color:"aqua"},description:"Interact with me!",CustomNameVisible:true,attributes:[{id:"name_tag_distance",base:10}]}
+summon interaction -35 69 -224 {Tags: ["summit.interactable","ncrs.booth.npc","ncrs.booth.npc.interaction"],width:0.75,height:1.85,data:{summit_interactable:{on_right_click: "function ncrs:dialog/april/welcome"}}}

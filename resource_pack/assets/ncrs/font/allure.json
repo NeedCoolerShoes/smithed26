@@ -1,0 +1,9 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "ncrs:allure.ttf",
+      "size": 8
+    }
+  ]
+}

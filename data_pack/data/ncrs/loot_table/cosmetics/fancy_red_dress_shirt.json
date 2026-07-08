@@ -52,7 +52,26 @@
                   "text": "https://ncrs.skin/s/29842",
                   "color": "gray",
                   "italic": false
-                }
+                },
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
               ],
               "mode": "replace_all"
             },
@@ -67,7 +86,13 @@
                 "minecraft:item_model": "ncrs:cosmetics/fancy_red_dress_shirt",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/fancy_red_dress_shirt"
+                    "id": "ncrs:cosmetics/fancy_red_dress_shirt",
+                    "tags": [
+                      "cosmetic"
+                    ]
+                  },
+                  "summit": {
+                    "persist": {}
                   }
                 },
                 "minecraft:max_stack_size": 1

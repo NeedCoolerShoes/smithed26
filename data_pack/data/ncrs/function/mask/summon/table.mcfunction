@@ -28,7 +28,7 @@ summon text_display ~-0.5 ~0.25 ~1.5 {text: {text: "Get Mask", color: "green"},U
 
 # Info Text
 kill f4579d9a-4f0a-4062-ad12-cd3e1edb1f01
-summon text_display ~ ~1.25 ~0.5 {UUID: [I; -195584614, 1326071906, -1391276738, 517676801],text:{text: "Mask Painting",color:"gold"},Rotation:[-90,0],alignment:"center"}
+summon text_display ~ ~1.375 ~0.5 {UUID: [I; -195584614, 1326071906, -1391276738, 517676801],text:{text: "Mask Painting",color:"gold"},Rotation:[-90,0],alignment:"center"}
 
 kill 028e8a05-462d-4cf2-84dd-06b9eda947cd
-summon text_display ~ ~1 ~0.5 {UUID: [I; 42895877, 1177373938, -2065889607, -307673139],text:{text: "Interact with the mask to draw.\nInteract with the palette to pick colors.",color:"white"},Rotation:[-90,0],alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
+summon text_display ~ ~1 ~0.5 {UUID: [I; 42895877, 1177373938, -2065889607, -307673139],text:[{text: "Interact with the mask to draw.\nInteract with the palette to pick colors.\nTalk to ",color:"white"}, {player: {properties:[{name: "textures", value: "eyJ0aW1lc3RhbXAiOjE3NzcwMTA2OTMsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwNDQ5MGNmMGVmODU1MjViODFiN2RiOGU3YjUyZDZiNjBmMzZhMzI5ODdmY2YwNzNhODY5ZTgxYmRjNzg2ODQifX19"}]}}, {text: " April", color: "aqua"}," if you need help."],Rotation:[-90,0],alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}

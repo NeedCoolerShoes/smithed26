@@ -1,0 +1,1 @@
+execute on target run function ncrs:dialog/meow_meow/1000_welcome

@@ -52,7 +52,26 @@
                   "text": "https://ncrs.skin/s/23970",
                   "color": "gray",
                   "italic": false
-                }
+                },
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
               ],
               "mode": "replace_all"
             },
@@ -67,7 +86,13 @@
                 "minecraft:item_model": "ncrs:cosmetics/flarey_blue_jeans",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/flarey_blue_jeans"
+                    "id": "ncrs:cosmetics/flarey_blue_jeans",
+                    "tags": [
+                      "cosmetic"
+                    ]
+                  },
+                  "summit": {
+                    "persist": {}
                   }
                 },
                 "minecraft:max_stack_size": 1

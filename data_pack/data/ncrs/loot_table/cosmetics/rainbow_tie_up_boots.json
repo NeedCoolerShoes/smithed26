@@ -63,7 +63,26 @@
                   "text": "and has been lovingly restored.",
                   "color": "gray",
                   "italic": false
-                }
+                },
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
               ],
               "mode": "replace_all"
             },
@@ -78,7 +97,13 @@
                 "minecraft:item_model": "ncrs:cosmetics/rainbow_tie_up_boots",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/rainbow_tie_up_boots"
+                    "id": "ncrs:cosmetics/rainbow_tie_up_boots",
+                    "tags": [
+                      "cosmetic"
+                    ]
+                  },
+                  "summit": {
+                    "persist": {}
                   }
                 },
                 "minecraft:max_stack_size": 1

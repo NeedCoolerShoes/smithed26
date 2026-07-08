@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ncrs:item/decor/graffiti"
+    "model": "ncrs:item/decor/graffiti/smithed"
   }
 }

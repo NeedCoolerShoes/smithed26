@@ -1,0 +1,1 @@
+execute on target run function ncrs:dialog/april/2000_welcome

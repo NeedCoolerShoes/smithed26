@@ -52,7 +52,26 @@
                   "text": "https://ncrs.skin/s/3032",
                   "color": "gray",
                   "italic": false
-                }
+                },
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
               ],
               "mode": "replace_all"
             },
@@ -67,7 +86,13 @@
                 "minecraft:item_model": "ncrs:cosmetics/haloween_jack_o_lantern_camisole",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:cosmetics/haloween_jack_o_lantern_camisole"
+                    "id": "ncrs:cosmetics/haloween_jack_o_lantern_camisole",
+                    "tags": [
+                      "cosmetic"
+                    ]
+                  },
+                  "summit": {
+                    "persist": {}
                   }
                 },
                 "minecraft:max_stack_size": 1
