@@ -2,7 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "ncrs:item/decor/posters/discount_green"
+		"0": "ncrs:item/decor/posters/adfree",
+		"particle": "ncrs:item/decor/posters/adfree"
 	},
 	"elements": [
 		{

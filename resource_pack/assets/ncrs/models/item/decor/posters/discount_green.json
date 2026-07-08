@@ -1,6 +1,0 @@
-{
-	"parent": "ncrs:item/decor/poster",
-	"textures": {
-		"0": "ncrs:item/decor/posters/discount_green"
-	}
-}

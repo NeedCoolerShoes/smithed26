@@ -3,7 +3,8 @@
 	"credit": "by P4ncake",
 	"texture_size": [128, 64],
 	"textures": {
-		"0": "ncrs:item/mask_bench"
+		"0": "ncrs:item/mask_bench",
+		"particle": "ncrs:item/mask_bench"
 	},
 	"elements": [
 		{
