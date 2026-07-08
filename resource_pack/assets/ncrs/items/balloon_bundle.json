@@ -5,6 +5,12 @@
       {
         "type": "minecraft:model",
         "model": "ncrs:item/balloon",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 66046
+          }
+        ],
         "transformation": {
           "translation": [
             0,
@@ -33,6 +39,12 @@
       {
         "type": "minecraft:model",
         "model": "ncrs:item/balloon",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 66046
+          }
+        ],
         "transformation": {
           "translation": [
             0,
@@ -61,6 +73,12 @@
       {
         "type": "minecraft:model",
         "model": "ncrs:item/balloon",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 66046
+          }
+        ],
         "transformation": {
           "translation": [
             0,

@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ncrs:item/decor/promo"
+    "model": "ncrs:item/decor/promo",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 66046
+      }
+    ]
   }
 }
