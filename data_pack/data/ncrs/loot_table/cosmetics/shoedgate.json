@@ -80,10 +80,9 @@
                       "color":"white"
                     },
                     {
-                      "text": "ꜱʜᴀʀᴅɢᴀᴛᴇ",
-                      "color": "gold",
-                      "italic": false,
-                      "font":"minecraft:default"
+                        "text": "shardgate",
+                        "italic": false,
+                        "font": "shardgate:tooltip"
                     }
                   ]
                 ]
