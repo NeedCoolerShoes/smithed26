@@ -1,2 +1,3 @@
-execute if entity @s[tag=ncrs.mask_ban] run return run function ncrs:mask/banned
-return run function ncrs:mask/cooldown
+execute if function ncrs:mask/banned run return 0
+execute if function ncrs:mask/cooldown run return 0
+return 1

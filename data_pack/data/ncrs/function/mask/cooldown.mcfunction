@@ -5,7 +5,7 @@ scoreboard players add $ends_at ncrs.mask.cooldown 6000
 
 execute store result score $current_time ncrs.mask.cooldown run time query gametime
 
-execute if score $current_time ncrs.mask.cooldown >= $ends_at ncrs.mask.cooldown run return 1
+execute if score $current_time ncrs.mask.cooldown >= $ends_at ncrs.mask.cooldown run return 0
 
 scoreboard players operation $remaining ncrs.mask.cooldown = $ends_at ncrs.mask.cooldown
 scoreboard players operation $remaining ncrs.mask.cooldown -= $current_time ncrs.mask.cooldown
@@ -20,4 +20,4 @@ execute at @s run playsound minecraft:block.note_block.didgeridoo block @s ~ ~ ~
 execute if score $remaining ncrs.mask.cooldown matches 2.. run title @s actionbar [{text: "Please wait ", color: "gold"},{score: {name: "$remaining", objective: "ncrs.mask.cooldown"}}, " minutes before making another mask."]
 execute if score $remaining ncrs.mask.cooldown matches ..1 run title @s actionbar [{text: "Please wait ", color: "gold"},{score: {name: "$remaining", objective: "ncrs.mask.cooldown"}}, " minute before making another mask."]
 
-return 0
+return 1
