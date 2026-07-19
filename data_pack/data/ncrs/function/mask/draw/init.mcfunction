@@ -19,7 +19,7 @@ scoreboard players operation $idx ncrs.mask += $z2 ncrs.mask
 
 execute if score $idx ncrs.mask matches ..0 run scoreboard players set $idx ncrs.mask 0
 
-execute positioned -45 70 -233 run playsound minecraft:block.rooted_dirt.break block @a[distance=..5] ~ ~ ~ 1 1.8
+execute positioned -45 70 -233 run playsound minecraft:block.rooted_dirt.break block @a[tag=summit.in_booth.ncrs,distance=..5] ~ ~ ~ 1 1.8
 
 data modify storage ncrs:mask y_pos set from storage ncrs:raycast position[1]
 data modify storage ncrs:mask z_pos set from storage ncrs:raycast position[2]

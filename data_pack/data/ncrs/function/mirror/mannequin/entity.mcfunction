@@ -10,11 +10,7 @@ scoreboard players operation $dx ncrs.mirror -= $mx ncrs.mirror
 scoreboard players operation $x ncrs.mirror += $dx ncrs.mirror
 
 execute store result storage ncrs:mirror player.Pos[0] double 0.001 run scoreboard players get $x ncrs.mirror
-
-execute store result score $rot ncrs.mirror run data get storage ncrs:mirror player.Rotation[0] 1000
-scoreboard players operation $rot ncrs.mirror *= $-1 ncrs.constants
-
-execute store result storage ncrs:mirror player.Rotation[0] float 0.001 run scoreboard players get $rot ncrs.mirror
+execute store result storage ncrs:mirror player.Rotation[0] float -1 run data get storage ncrs:mirror player.Rotation[0]
 
 data modify entity @s Pos set from storage ncrs:mirror player.Pos
 
