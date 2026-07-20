@@ -10,6 +10,9 @@ summon item_display ~0.5 ~-0.5 ~0.5 {Tags:["summit.booth_entity.ncrs","summit.st
 # Paintbrush Display
 summon item_display ~0.125 ~0.375 ~0.25 {Tags:["summit.booth_entity.ncrs","summit.dynamic"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:brush","minecraft:custom_model_data":{colors:[3945537]}}},UUID:[I; 1921426680, 1425820553, -2051990284, -82150420],Rotation:[90f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Tags:["summit.dynamic"]}
 
+# Paintbrush Text
+summon text_display ~0.25 ~0.1 ~0.38 {Tags:["summit.booth_entity.ncrs","summit.dynamic"],text: {text: "Black", color: "aqua", extra: [{text: "\n                             "}]},UUID:[I; -1325148811, 596004150, -1730397560, 794783811],Rotation:[-90,0],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.15f,0.15f,0.15f]},alignment:"center",background:0}
+
 # Confirm Button Display
 summon item_display ~-0.5 ~0.5 ~1.5 {Tags:["summit.booth_entity.ncrs","summit.dynamic"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ncrs:confirm_button"}},UUID:[I; -781849246, -933736843, -1708390745, -1850818619],Rotation:[90f,0f]}
 

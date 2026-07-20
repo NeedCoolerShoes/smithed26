@@ -10,6 +10,9 @@ kill 54f653f1-9040-4837-aa9b-3026d1a98da6
 # Paintbrush Display
 kill 7286a4f8-54fc-4b89-85b1-1cf4fb1a7bec
 
+# Paintbrush Text
+kill b103d575-2386-4d36-98dc-3a882f5f7043
+
 # Confirm Button Display
 kill d165ed62-c858-4e75-9a2c-06a791aebfc5
 
