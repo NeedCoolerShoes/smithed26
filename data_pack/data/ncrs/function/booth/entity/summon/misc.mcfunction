@@ -29,3 +29,6 @@ summon interaction -35 70 -223 {Tags: ["summit.booth_entity.ncrs", "summit.inter
 summon text_display -35 70.85 -225 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], text:{text: "Visit our Site!", color: "green"},billboard:"vertical",background:-1778384896, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
 summon text_display -35 70 -225 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], text:{player:{name:"NeedCoolerShoes"}},billboard:"vertical",background:0, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]}}
 summon interaction -35 70 -225 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run dialog show @s ncrs:needcoolershoes"}},height:1}
+
+# Easteregg Hint
+summon interaction -44 69 -229 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run dialog show @s ncrs:easteregg"}},height:0.6,width:0.6}

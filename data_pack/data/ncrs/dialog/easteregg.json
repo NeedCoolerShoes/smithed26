@@ -1,0 +1,545 @@
+{
+  "type": "minecraft:notice",
+  "title": "How to draw Little Meow Meow!",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      "This is a guide to make\na Little Meow Meow mask!\n\n",
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0aW1lc3RhbXAiOjE3NzcwMTA2OTMsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwNDQ5MGNmMGVmODU1MjViODFiN2RiOGU3YjUyZDZiNjBmMzZhMzI5ODdmY2YwNzNhODY5ZTgxYmRjNzg2ODQifX19"
+            }
+          ]
+        }
+      },
+      {
+        "text": " April",
+        "color": "aqua"
+      },
+      " would be proud!\n\n",
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#c54324",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#ffd558",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#ffd558",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#c54324",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#c54324",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#ffd558",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#ffd558",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#c54324",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#da6d11",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#da6d11",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#da6d11",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#da6d11",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#efa326",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Yellow"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#da6d11",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Orange"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#da6d11",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Orange"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#61657e",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#61657e",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#61657e",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#61657e",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      "\n",
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#2e2733",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Dark Black"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      {
+        "text": "◻",
+        "color": "#80859d",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Gray"
+        }
+      },
+      "\n\n Hint: You can hover over the colours to see their names!"
+    ]
+  }
+}
