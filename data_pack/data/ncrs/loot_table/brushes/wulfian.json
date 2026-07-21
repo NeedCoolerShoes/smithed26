@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mysterious Paintbrush",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:brush",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:brushes/wulfian",
+                    "mask": {
+                      "color": {
+                        "color": 16709637,
+                        "name": "Wulfian"
+                      }
+                    }
+                  }
+                },
+                "minecraft:custom_model_data": {
+                  "colors": [
+                    16709637
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ],
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "ᴜѕᴇ ᴏɴ ᴍᴀѕᴋ ",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "◻ ",
+                    "color": "#FEF805"
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

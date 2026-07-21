@@ -32,3 +32,21 @@ summon interaction -35 70 -225 {Tags: ["summit.booth_entity.ncrs", "summit.inter
 
 # Easteregg Hint
 summon interaction -44 69 -229 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run dialog show @s ncrs:easteregg"}},height:0.6,width:0.6}
+
+# Brushes Hint
+summon text_display -44 69.25 -232.75 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], text:["",{text: "TIP!", color: "green"}, "\nCertain items found around Summit\ncan be used on the mask to add\nnew colors!\n\nMake sure to check the tooltip!\n Look for a colored square\nand Meow Meow ", {text: "◻", color: "#0EEFB8"}, " ", {player: {name: "NeedCoolerShoes"}}], transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.35f,0.35f,0.35f]},Rotation:[-60,0]}
+
+# Brushes
+summon interaction -44 69.25 -232.75 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/seaside"}},height:0.6,width:0.6}
+summon interaction -44 69 -218 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/allium"}},height:0.6,width:0.6}
+summon interaction -44 69 -217 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/tulip"}},height:0.6,width:0.6}
+summon interaction -40 69 -213 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/orchid"}},height:0.6,width:0.6}
+
+summon interaction -42 94 -231 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/mox"}},height:0.6,width:0.6}
+summon item_display -42 94.5 -231 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], item: {id: "stick", components: {item_model: "ncrs:brush",custom_model_data:{colors:[16711680]}}}, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},billboard:"vertical"}
+
+summon interaction -47 78 -235 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/wulfian"}},height:0.6,width:0.6}
+summon item_display -47 78.5 -235 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], item: {id: "stick", components: {item_model: "ncrs:brush",custom_model_data:{colors:[16709637]}}}, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},billboard:"vertical"}
+
+summon interaction -42 78 -214.25 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/pancake"}},height:0.6,width:0.6}
+summon item_display -42 78.5 -214.25 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], item: {id: "stick", components: {item_model: "ncrs:brush",custom_model_data:{colors:[16767572]}}}, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},billboard:"vertical"}

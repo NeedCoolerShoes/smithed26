@@ -71,6 +71,27 @@
                     "font": "ncrs:allure",
                     "color": "gold"
                   }
+                ],
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "ᴜѕᴇ ᴏɴ ᴍᴀѕᴋ ",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "◻ ",
+                    "color": "#1A2992"
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  }
                 ]
               ],
               "mode": "replace_all"
@@ -89,7 +110,13 @@
                     "id": "ncrs:cosmetics/smithed_jacket",
                     "tags": [
                       "cosmetic"
-                    ]
+                    ],
+                    "mask": {
+                      "color": {
+                        "color": 1714578,
+                        "name": "Smithed Blue"
+                      }
+                    }
                   },
                   "summit": {
                     "persist": {}
