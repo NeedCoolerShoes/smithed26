@@ -1,0 +1,127 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Essence of Meow Meow",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:collab/cnk/essence",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:collab/cnk/essence",
+                    "mask": {
+                      "color": {
+                        "color": 9737364,
+                        "name": "Lil Meow Meow"
+                      }
+                    }
+                  },
+                  "cnk": {
+                    "ingredient": {
+                      "type": "ncrs:collab/cnk/essence"
+                    }
+                  },
+                  "beet": {
+                    "beetrice": {
+                      "dialogue": {
+                        "text": "It seems to be meowing something to me... It says to interact with the head next to the mask table? I don't get it... Do you?\n\n...Also something about the pots?",
+                        "width": 150,
+                        "padding": 10
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ],
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "ᴜѕᴇ ᴏɴ ᴍᴀѕᴋ ",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "◻ ",
+                    "color": "#949494"
+                  },
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "ɪɴɢʀᴇᴅɪᴇɴᴛ ꜰᴏʀ ",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "translate": "cnk.tooltip",
+                    "font": "cnk:tooltip"
+                  }
+                ],
+                [
+                  {
+                    "text": "ѕʜᴏᴡ ᴛᴏ ",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "\ua001 Beetrice",
+                    "font": "beet:pack_mark",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

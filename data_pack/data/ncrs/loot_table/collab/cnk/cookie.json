@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Meow Meow Cookie",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:collab/cnk/cookie",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:collab/cnk/cookie"
+                  },
+                  "cnk": {
+                    "tradeable": true
+                  }
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 4.2,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "cnk.tooltip",
+                    "font": "cnk:tooltip"
+                  },
+                  " x ",
+                  {
+                    "player": {
+                      "name": "NeedCoolerShoes"
+                    }
+                  },
+                  " ",
+                  {
+                    "text": "NeedCoolerShoes",
+                    "font": "ncrs:allure",
+                    "color": "gold"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
