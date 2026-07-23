@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:notice",
+  "title": "NCRS Booth Debug",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "",
+        "color": "aqua"
+      },
+      {
+        "text": "--- Reset ---\n",
+        "color": "gold"
+      },
+      {
+        "text": "Reset Mask Cooldowns\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 1000"
+        }
+      },
+      {
+        "text": "Restock Store\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 1001"
+        }
+      },
+      {
+        "text": "\n--- Special Items ---\n",
+        "color": "gold"
+      },
+      {
+        "text": "Give Holy Mask\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 2000"
+        }
+      },
+      {
+        "text": "Give Meow Meow Cookie\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 2001"
+        }
+      },
+      {
+        "text": "\n--- Warps ---\n",
+        "color": "gold"
+      },
+      {
+        "text": "Warp Entrance\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 3000"
+        }
+      },
+      {
+        "text": "Warp Level 1\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 3001"
+        }
+      },
+      {
+        "text": "Warp Roof\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 3002"
+        }
+      },
+      {
+        "text": "Warp Basement\n",
+        "click_event": {
+          "action": "run_command",
+          "command": "/trigger ncrs.debug set 3003"
+        }
+      }
+    ]
+  }
+}

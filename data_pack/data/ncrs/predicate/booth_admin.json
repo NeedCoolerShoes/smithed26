@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:nbt": "{UUID: [I; -275837679, -140819543, -2063651543, 1606800016]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:nbt": "{UUID: [I; -1395474150, -1142406135, -2065211789, 1280409124]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:nbt": "{UUID: [I; 884333695, 1152274296, -1855190477, -470590434]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:nbt": "{UUID: [I; -1823345075, -1903016673, -1218151590, 1029434438]}"
+      }
+    }
+  ]
+}

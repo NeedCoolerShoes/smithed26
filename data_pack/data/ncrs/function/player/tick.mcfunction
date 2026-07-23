@@ -4,6 +4,9 @@ execute unless predicate ncrs:mirror/in_bounds if entity @s[tag=ncrs.using_mirro
 execute if entity @s[tag=ncrs.in_mirror] unless predicate ncrs:mirror/has_holy_mask run function ncrs:mirror/in_mirror/exit
 
 scoreboard players enable @s ncrs.dialog
+scoreboard players enable @s ncrs.debug
+
 execute if score @s ncrs.dialog matches 1.. run function ncrs:dialog/index
+execute if score @s ncrs.debug matches 1.. run function ncrs:booth/debug/index
 
 execute if predicate ncrs:drippy run advancement grant @s only summit.sticker_book:ncrs/clothes
