@@ -50,3 +50,9 @@ summon item_display -47 78.5 -235 {Tags: ["summit.booth_entity.ncrs", "summit.st
 
 summon interaction -42 78 -214.25 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:brush/give/pancake"}},height:0.6,width:0.6}
 summon item_display -42 78.5 -214.25 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], item: {id: "stick", components: {item_model: "ncrs:brush",custom_model_data:{colors:[16767572]}}}, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},billboard:"vertical"}
+
+# Essence Barrel
+setblock -28 85 -221 barrier
+summon item_display -28 85.5 -221 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], item: {id: "stick", components: {item_model: "ncrs:collab/cnk/essence_barrel"}}, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.0f,1.0f,1.0f]}}
+summon text_display -28.01 85.4 -221 {Tags: ["summit.booth_entity.ncrs", "summit.static", "ncrs.booth.misc"], text:{text: "Barrel of\nEssence", color: "gold"}, transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},Rotation:[90,0],background:0}
+summon interaction -28 85 -221 {Tags: ["summit.booth_entity.ncrs", "summit.interactable", "summit.static", "ncrs.booth.misc"], data: {summit_interactable: {on_right_click: "execute on target run function ncrs:collab/cnk/give_essence"}},height:1.05,width:1.05}
