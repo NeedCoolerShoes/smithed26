@@ -28,6 +28,13 @@
       "predicate": {
         "minecraft:nbt": "{UUID: [I; -1823345075, -1903016673, -1218151590, 1029434438]}"
       }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:nbt": "{Tags: [\"summit.admin\"]}"
+      }
     }
   ]
 }
